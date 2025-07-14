@@ -40,3 +40,52 @@
         background-position: -200% 0;
     }
 }
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+table {
+    font-family: 'Nunito', sans-serif;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 1480px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    font-family: 'Nunito', sans-serif;
+    border: 0px solid #ccc;
+    padding: 6px 6px;
+    text-align: right;
+    font-size: 14px;
+}
+th {
+    background: #f0f0f0;
+}
+td:first-child, th:first-child {
+    width: 300px;
+    text-align: left;
+}
+td:nth-child(n+2):nth-child(-n+13),
+th:nth-child(n+2):nth-child(-n+13) {
+    width: 90px;
+}
+td:nth-child(14),
+th:nth-child(14) {
+    width: 100px;
+}
+.idented {
+    padding-left: 30px !important;
+}
+.linhatotal {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+.linhaclasse {
+    background-color: white;
+}
+.cabecalho {
+    background-color: dodgerblue;
+    font-weight: bold;
+}
